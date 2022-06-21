@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #282c34;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.btnDiscord.logout {
+  background-color: #5865f2;
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: filter 0.2s;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btnDiscord {
+  background-color: #5865f2;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: filter 0.2s;
+}
+
+.btnDiscord:hover {
+  filter: brightness(0.8);
+}
+
+.infoUser {
+  margin-top: 64px;
+}
+
+.infoUser p {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 700;
+}
